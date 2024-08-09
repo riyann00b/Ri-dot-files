@@ -33,13 +33,13 @@ To use the `.bashrc` file from this repository, follow these steps:
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/riyann00b/Ri-dotfiles.git
+    git clone git@github.com:riyann00b/Ri-dotfiles.git
     ```
 
 2. Navigate to the cloned repository:
 
     ```bash
-    cd linux-dotfiles
+    cd Ri-dotfiles
     ```
 
 3. Copy the `.bashrc` file to your home directory:
