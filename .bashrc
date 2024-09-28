@@ -661,20 +661,20 @@ eval "$(zoxide init bash)"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/riyan/mambaforge/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/riyan/miniforge3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/riyan/mambaforge/etc/profile.d/conda.sh" ]; then
-        . "/home/riyan/mambaforge/etc/profile.d/conda.sh"
+    if [ -f "/home/riyan/miniforge3/etc/profile.d/conda.sh" ]; then
+        . "/home/riyan/miniforge3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/riyan/mambaforge/bin:$PATH"
+        export PATH="/home/riyan/miniforge3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 
-if [ -f "/home/riyan/mambaforge/etc/profile.d/mamba.sh" ]; then
-    . "/home/riyan/mambaforge/etc/profile.d/mamba.sh"
+if [ -f "/home/riyan/miniforge3/etc/profile.d/mamba.sh" ]; then
+    . "/home/riyan/miniforge3/etc/profile.d/mamba.sh"
 fi
 # <<< conda initialize <<<
 
